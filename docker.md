@@ -44,3 +44,8 @@ services:
 ```
 sudo docker-compose run web django-admin.py startproject composeexample .
 ```
+
+### 删除所有标签为none的镜像
+```
+docker images|grep \<none\>|awk '{print $3}' | xargs docker rmi
+```
