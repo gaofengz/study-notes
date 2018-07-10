@@ -12,3 +12,9 @@ sudo /etc/init.d/restart
 ```
 sudo /etc/init.d/stop
 ```
+ 
+
+## 卸载apache
+```
+sudo apt-get --purge remove apache-common
+```
