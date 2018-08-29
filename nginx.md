@@ -14,3 +14,15 @@ sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除
 
 sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
 ```
+
+## nginx相关操作
+```bash
+启动
+sudo nginx
+
+关闭
+sudo nginx -s stop
+
+重启
+sudo nginx -s reload
+```
