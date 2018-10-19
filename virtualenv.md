@@ -1,11 +1,14 @@
-#   PYTHON虚拟环境 virtualenv 
+## Python虚拟环境 virtualenv 
 
 ```
 mkdir myproject
 
-cd myproject/
+cd myproject
 
 virtualenv --no-site-packages venv
+
+# 指定python版本
+virtualenv -p /usr/bin/python3 --no-site-packages env
 
 source venv/bin/activate
 
