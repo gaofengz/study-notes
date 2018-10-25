@@ -26,3 +26,13 @@ sudo nginx -s stop
 重启
 sudo nginx -s reload
 ```
+
+## Mac下相关配置
+```
+#homebrew安装nginx
+brew install nginx
+
+#Mac下的配置文件目录
+/usr/local/etc/nginx
+```
+
