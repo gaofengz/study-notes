@@ -51,3 +51,5 @@ git reset --hard ID 使用ID回退到指定版本
 ```bash
 git branch + 分支名
 ```
+
+111:wq
