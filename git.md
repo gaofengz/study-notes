@@ -46,3 +46,8 @@ git log 查看版本提交
 
 git reset --hard ID 使用ID回退到指定版本
 ```
+
+## 切换分支
+```bash
+git branch + 分支名
+```
